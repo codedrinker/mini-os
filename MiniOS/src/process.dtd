@@ -1,0 +1,11 @@
+<!ELEMENT os (process+)>
+<!ELEMENT process (id,noteId,noteName,diskNum,ramNum,content,ext,execute,block)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT noteId (#PCDATA)>
+<!ELEMENT noteName (#PCDATA)>
+<!ELEMENT diskNum (#PCDATA)>
+<!ELEMENT ramNum (#PCDATA)>
+<!ELEMENT content (#PCDATA)>
+<!ELEMENT ext (#PCDATA)>
+<!ELEMENT execute (#PCDATA)>
+<!ELEMENT block (#PCDATA)>
